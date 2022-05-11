@@ -43,6 +43,8 @@ img:hover {
 
 body {
 	line-height: 1;
+	overflow-y: visible;
+	overflow-x: visible;
 }
 
 ol, ul {
