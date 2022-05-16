@@ -92,8 +92,21 @@ input, select, textarea {
 		width: device-width;
 	}
 
-	body {
-		-ms-overflow-style: scrollbar;
+	::-webkit-scrollbar {
+    	    width: 8px;
+    	    height: 8px;
+	}
+
+	::-webkit-scrollbar-track {
+	    background: var(--ploxxy-header); 
+	}
+
+	::-webkit-scrollbar-thumb {
+	    background: var(--ploxxy-pagination); 
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+	    background: var(--ploxxy-pagination); 
 	}
 
 	@media screen and (max-width: 480px) {
