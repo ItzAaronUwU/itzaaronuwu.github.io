@@ -34,7 +34,7 @@ table {
 }
 
 a:link, a:visited, a:hover, a:active {
-    color: lightblue;
+    color: lightred;
 }
   
 a:hover {
@@ -56,7 +56,7 @@ input.gridjs-input {
     border: 1px solid #333;
 }
 input.gridjs-input:focus {
-    box-shadow: 0 0 0 3px lightblue
+    box-shadow: 0 0 0 3px lightred
 }
 .gridjs-pagination {
     color: #FFF;
@@ -67,10 +67,10 @@ input.gridjs-input:focus {
     color: #FFF;
 }
 .gridjs-pagination .gridjs-pages button:focus {
-    box-shadow: 0 0 0 2px lightblue;
+    box-shadow: 0 0 0 2px lightred;
 }
 .gridjs-pagination .gridjs-pages button:hover {
-    background-color: lightblue;
+    background-color: lightred;
     color: #222;
 }
 .gridjs-pagination .gridjs-pages button:disabled, .gridjs-pagination .gridjs-pages button[disabled], .gridjs-pagination .gridjs-pages button:hover:disabled {
@@ -81,7 +81,7 @@ input.gridjs-input:focus {
     background-color: #333;
 }
 .gridjs-pagination .gridjs-pages button.gridjs-currentPage {
-    background-color: lightblue;
+    background-color: lightred;
     color: #222;
 }
 .gridjs-pagination .gridjs-pages button:last-child {
@@ -97,11 +97,11 @@ td.gridjs-td {
 th.gridjs-th {
     position: relative;
     color: #222;
-    background-color: lightblue;
+    background-color: lightred;
     border: 1px solid #444;
 }
 th.gridjs-th-sort:hover {
-    background-color: lightblue;
+    background-color: lightred;
     filter: brightness(1.2);
 }
 th.gridjs-th-sort:focus {
