@@ -6,7 +6,13 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
+:root {
+    --ploxxy-light: #333;
+    --ploxxy-borders: #444;
+    --ploxxy-header: #222;
+    --ploxxy-primary: lightblue;
+    --ploxxy-pagination: #FFF;
+}
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -51,6 +57,23 @@ ol, ul {
 	list-style: none;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--ploxxy-header); 
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--ploxxy-pagination); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--ploxxy-pagination); 
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -92,21 +115,8 @@ input, select, textarea {
 		width: device-width;
 	}
 
-	::-webkit-scrollbar {
-    	    width: 8px;
-    	    height: 8px;
-	}
-
-	::-webkit-scrollbar-track {
-	    background: var(--ploxxy-header); 
-	}
-
-	::-webkit-scrollbar-thumb {
-	    background: var(--ploxxy-pagination); 
-	}
-
-	::-webkit-scrollbar-thumb:hover {
-	    background: var(--ploxxy-pagination); 
+	body {
+		-ms-overflow-style: scrollbar;
 	}
 
 	@media screen and (max-width: 480px) {
