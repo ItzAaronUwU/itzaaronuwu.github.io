@@ -4,13 +4,6 @@
     font-family: 'Ubuntu Mono', monospace;
 }
 
-:root {
-    --ploxxy-light: #333;
-    --ploxxy-borders: #444;
-    --ploxxy-header: #222;
-    --ploxxy-primary: lightblue;
-    --ploxxy-pagination: #FFF;
-}
 
 body {
     background-color: #1e252d;
@@ -29,19 +22,19 @@ table {
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--ploxxy-header); 
+    background: #222; 
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--ploxxy-pagination); 
+    background: #FFF; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--ploxxy-pagination); 
+    background: #FFF; 
 }
 
 a:link, a:visited, a:hover, a:active {
-    color: var(--ploxxy-primary);
+    color: lightblue;
 }
   
 a:hover {
@@ -53,78 +46,78 @@ a:active {
 }
 
 .gridjs-footer {
-    border-top: 1px solid var(--ploxxy-borders);
-    background-color: var(--ploxxy-light);
-    border-color: var(--ploxxy-borders);
+    border-top: 1px solid #444);
+    background-color: #333;
+    border-color: #444;
 }
 input.gridjs-input {
-    color: var(--ploxxy-pagination);
-    background-color: var(--ploxxy-light);
-    border: 1px solid var(--ploxxy-light);
+    color: #FFF;
+    background-color: #333;
+    border: 1px solid #333;
 }
 input.gridjs-input:focus {
-    box-shadow: 0 0 0 3px var(--ploxxy-primary)
+    box-shadow: 0 0 0 3px lightblue
 }
 .gridjs-pagination {
-    color: var(--ploxxy-pagination);
+    color: #FFF;
 }
 .gridjs-pagination .gridjs-pages button {
-    border: 1px solid var(--ploxxy-borders);
-    background-color: var(--ploxxy-borders);
-    color: var(--ploxxy-pagination);
+    border: 1px solid #444;
+    background-color: #444;
+    color: #FFF;
 }
 .gridjs-pagination .gridjs-pages button:focus {
-    box-shadow: 0 0 0 2px var(--ploxxy-primary);
+    box-shadow: 0 0 0 2px lightblue;
 }
 .gridjs-pagination .gridjs-pages button:hover {
-    background-color: var(--ploxxy-primary);
-    color: var(--ploxxy-header);
+    background-color: lightblue;
+    color: #222;
 }
 .gridjs-pagination .gridjs-pages button:disabled, .gridjs-pagination .gridjs-pages button[disabled], .gridjs-pagination .gridjs-pages button:hover:disabled {
-    background-color: var(--ploxxy-borders);
-    color: var(--ploxxy-light);
+    background-color: #444;
+    color: #333;
 }
 .gridjs-pagination .gridjs-pages button.gridjs-spread {
-    background-color: var(--ploxxy-light);
+    background-color: #333;
 }
 .gridjs-pagination .gridjs-pages button.gridjs-currentPage {
-    background-color: var(--ploxxy-primary);
-    color: var(--ploxxy-header);
+    background-color: lightblue;
+    color: #222;
 }
 .gridjs-pagination .gridjs-pages button:last-child {
-    border-right: 1px solid var(--ploxxy-borders);
+    border-right: 1px solid #444;
 }
 .gridjs-tbody {
-    background-color: var(--ploxxy-light);
+    background-color: #333;
 }
 td.gridjs-td {
-    border: 1px solid var(--ploxxy-borders);
-    background-color: var(--ploxxy-light);
+    border: 1px solid #444;
+    background-color: #333;
 }
 th.gridjs-th {
     position: relative;
-    color: var(--ploxxy-header);
-    background-color: var(--ploxxy-primary);
-    border: 1px solid var(--ploxxy-borders);
+    color: #222;
+    background-color: lightblue;
+    border: 1px solid #444;
 }
 th.gridjs-th-sort:hover {
-    background-color: var(--ploxxy-primary);
+    background-color: lightblue;
     filter: brightness(1.2);
 }
 th.gridjs-th-sort:focus {
-    background-color: var(--ploxxy-borders);
+    background-color: #444;
 }
 th.gridjs-th-fixed {
-    box-shadow: 0 1px 0 0 var(--ploxxy-borders);
+    box-shadow: 0 1px 0 0 #444;
 }
 @supports (-moz-appearance: none) {
     th.gridjs-th-fixed {
-        box-shadow: 0 0 0 1px var(--ploxxy-borders);
+        box-shadow: 0 0 0 1px #444;
    }
 }
 .gridjs-wrapper {
-    border-color: var(--ploxxy-borders);
+    border-color: #444;
 }
 .gridjs-loading-bar {
-    background-color: var(--ploxxy-light);
+    background-color: #333;
 }
