@@ -35,7 +35,7 @@ new gridjs.Grid({
                 } else if (a < b) {
                     return -1
                 } else {
-                    return 0
+                    return -1
                 }
             }
         }
@@ -77,8 +77,8 @@ new gridjs.Grid({
     },{
         name: 'Connectable',
         data: row => row[0].connectable,
-        formatter: (cell) => gridjs.html(cell ? '✔&#xFE0F' : '✘&#xFE0F'),
-        sort: { enabled: true }
+        formatter: (cell) => gridjs.html(cell ? '✔&#xFE0F' : '❌&#xFE0F'),
+        sort: { enabled: false }
     }],
     server: {
         url: 'https://api.minehut.com/servers',
