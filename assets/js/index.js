@@ -35,7 +35,7 @@ new gridjs.Grid({
                 } else if (a < b) {
                     return -1
                 } else {
-                    return 0
+                    return -1
                 }
             }
         }
