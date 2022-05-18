@@ -27,7 +27,7 @@ new gridjs.Grid({
     },{
         name: 'Connected Servers',
         data: row => row.connectedServers,
-        formatter: (cell) => gridjs.html(cell.join(' ').replace(/([^\s]+)/g, '<a href="./server.html?q=$1" target="_blank">$1</a>') || '-')
+        formatter: (cell) => gridjs.html(cell.join(' ').replace(/([^\s]+)/g, '<a href="./server?q=$1" target="_blank">$1</a>') || '-')
     },{
         name: 'Proxy',
         data: row => row.proxy ? 'Yes' : 'No'
